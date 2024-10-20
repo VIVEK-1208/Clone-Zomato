@@ -132,6 +132,54 @@ body {
     transform: translateY(-10px);
 }
 
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+    display: none;
+}
+
+.mySlides1 img, .mySlides2 img, .mySlides3 img, .mySlides4 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Navigation buttons */
+.prev1, .next1, .prev2, .next2, .prev3, .next3, .prev4, .next4 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5); /* Set transparent black background */
+    border-radius: 20%;
+    user-select: none;
+    z-index: 100;
+}
+
+.prev1, .prev2, .prev3, .prev4 {
+    left: 10px;
+}
+
+.next1, .next2, .next3, .next4 {
+    right: 10px;
+}
+
+.prev1:hover, .next1:hover, .prev2:hover, .next2:hover, .prev3:hover, .next3:hover, .prev4:hover, .next4:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+
 /* Footer Section */
 .footer {
     background-color: #333;
@@ -143,4 +191,3 @@ body {
 .footer p {
     font-size: 0.9rem;
 }
-
