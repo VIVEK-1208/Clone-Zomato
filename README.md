@@ -10,7 +10,7 @@ This repository contains a clone of the Zomato landing page. It is built using H
 - Contributing
   
 ## Live Demo
-Check out the project: 
+Check out the project: [Live Demo](https://vivek-1208.github.io/Clone-Zomato/)
 
 ## Features
 - Responsive design across devices (mobile, tablet, desktop)
@@ -22,16 +22,15 @@ Check out the project:
 - **HTML5**: For the structure of the webpage.
 - **CSS3**: To style the webpage and make it visually appealing.
 - **JavaScript**: To handle basic interactivity on the page.
-- **Font Awesome**: For icons.
-- **Google Fonts**: For web typography.
 
 ## Setup Instructions
 
 ### 1. Clone the repository
 To clone this repository to your local machine, run the following command:
 
+```bash
 git clone https://github.com/VIVEK-1208/Clone-Zomato.git
-
+```
 
 ### 2. Navigate to the project folder
 
