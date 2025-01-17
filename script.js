@@ -75,4 +75,3 @@ function showSlides4(n) {
     }
     slides[slideIndex4 - 1].style.display = "block";
 }
-
