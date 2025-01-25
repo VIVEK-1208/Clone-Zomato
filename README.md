@@ -10,7 +10,7 @@ This repository contains a clone of the Zomato landing page. It is built using H
 - Contributing
   
 ## Live Demo
-Check out the project: [Live Demo](https://vivek-1208.github.io/Clone-Zomato/)
+Check out the project: [Live Demo](https://vivek-1208.github.io/Landing-Page_-Zomato-/)
 
 ## Features
 - Responsive design across devices (mobile, tablet, desktop)
